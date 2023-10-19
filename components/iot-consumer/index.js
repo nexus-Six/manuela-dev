@@ -136,7 +136,7 @@ async function check_anomaly(id, value) {
 
             if(!anomaly_detection_rhods) {
                 edgeAnomaly = { "data": { "ndarray": [l] },"meta":{"device_metric":id}};
-                anomaly_uri = anomaly_detection_url + '/api/v1.0/predictions'
+                anomaly_uri = anomaly_detection_url
 
 
             } else {
